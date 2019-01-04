@@ -1,0 +1,10 @@
+puts "Quel âge as-tu ?"
+userAge = gets.chomp.to_f
+
+if userAge < 18
+  puts "Tu n'es pas majeur !"
+elsif userAge == 18
+  puts "Bravo, tu viens d'atteindre la majorité !"
+else
+  puts "Tu es majeur !"
+end
